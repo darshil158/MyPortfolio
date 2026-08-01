@@ -1,24 +1,16 @@
-# MyPortfolio
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Header Section 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6348f7e2-cf8e-4132-982e-579812acab37" />
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-# Hero Section
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/91415eb4-b2a0-4fe6-a214-719ecf1f8378" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1b471f96-3604-49f7-9e19-d3583c795d6c" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/86906dea-e68e-423e-bd01-ff6099ba7997" />
+## React Compiler
 
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-# Work Section
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4b06cb76-0ade-458a-bb93-1cd7c04a3efb" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2fc40659-f1e7-4f21-8add-380834afc88d" />
+## Expanding the ESLint configuration
 
-
-# Contact Section
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/881b2af7-637d-47e4-bf89-03c59d1110fe" />
-
-
-# Footer Section
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b86282a3-bc8e-4287-8aa9-59cec64dbedf" />
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
